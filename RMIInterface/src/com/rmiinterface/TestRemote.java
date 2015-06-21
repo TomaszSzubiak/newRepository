@@ -13,5 +13,6 @@ public interface TestRemote extends Remote {
 	void addPoints(Point point) throws RemoteException;
 	List<Point> getRandomPoints() throws RemoteException;
 	List<Point> getRealPoints() throws RemoteException;
+	//List<Point> getRealPoints() throws RemoteException;
 
 }
