@@ -91,7 +91,7 @@ public class LoginFrame extends JFrame {
 						new MyFrame().setVisible(true);
 					}else{
 						JOptionPane.showMessageDialog(LoginFrame.this,
-							    "Podano z造 login lub has這.",
+							    "Podano z造 login lub has這",
 							    "B章d logowania.",
 							    JOptionPane.INFORMATION_MESSAGE);
 					}
