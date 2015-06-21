@@ -96,7 +96,7 @@ public class Client extends JFrame {
 						System.out.println(y);
 					} catch (NumberFormatException e) {
 						JOptionPane.showMessageDialog(Client.this,
-								"Niepoprawne liczby.", "Z³e dane",
+								"Error: niepoprwne liczby.", "Z³e dane",
 								JOptionPane.WARNING_MESSAGE);
 						return;
 					}
