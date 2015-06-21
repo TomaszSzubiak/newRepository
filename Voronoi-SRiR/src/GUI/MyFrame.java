@@ -112,7 +112,7 @@ public class MyFrame extends JFrame {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				panel.setifSavePhoto(chckbxZdjcie.isSelected());
+				
 			}
 		});
 
