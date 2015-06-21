@@ -52,6 +52,7 @@ public class Client extends JFrame {
 	 * Create the frame.
 	 */
 	public Client() {
+		setTitle("Client");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 339, 394);
 		contentPane = new JPanel();
