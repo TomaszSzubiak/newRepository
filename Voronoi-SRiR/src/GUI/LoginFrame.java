@@ -99,7 +99,7 @@ public class LoginFrame extends JFrame {
 				} catch (RemoteException | NotBoundException e) {
 					JOptionPane.showMessageDialog(LoginFrame.this,
 						    "B³¹d po³¹czenia z serwerem RMI.",
-						    "B³¹d po³¹czenia.",
+						    "B³¹d po³¹czenia",
 						    JOptionPane.WARNING_MESSAGE);
 				}
 				
