@@ -111,7 +111,7 @@ public class Client extends JFrame {
 					test.addPoints(new Point(x, y));
 				} catch (RemoteException | NotBoundException e) {
 					JOptionPane.showMessageDialog(Client.this,
-							"RMI server not found!", "Server error",
+							"RMI server not found!!", "Server error",
 							JOptionPane.WARNING_MESSAGE);
 				}
 
