@@ -32,8 +32,7 @@ public class MyPoint extends Point {
 
 		for (int i = 0; i < circles.size(); i++) {
 			for (int j = 1; j < circles.size(); j++) {
-				if (MathOperations.getAngle(this, circles.get(j)
-						.getCenterPoint()) < MathOperations.getAngle(this,
+				if (MathOperations.getAngle(this, circles.get(j).getCenterPoint()) < MathOperations.getAngle(this,
 						circles.get(j - 1).getCenterPoint()))
 					Collections.swap(circles, j, j - 1);
 			}
