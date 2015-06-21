@@ -85,6 +85,7 @@ public class Client extends JFrame {
 				try {
 					registry = LocateRegistry.getRegistry(tfAdres.getText(),
 							Constants.RMI_PORT);
+					
 					TestRemote test = (TestRemote) registry
 							.lookup(Constants.RMI_ID);
 					int x;
