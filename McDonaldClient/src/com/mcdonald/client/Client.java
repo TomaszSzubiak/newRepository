@@ -75,7 +75,7 @@ public class Client extends JFrame {
 
 		tfY = new JTextField();
 		tfY.setColumns(10);
-		tfY.setBounds(208, 145, 86, 20);
+		tfY.setBounds(208, 145, 86, 21);
 		contentPane.add(tfY);
 
 		JButton btnWylij = new JButton("WY\u015ALIJ");
