@@ -102,6 +102,7 @@ public class MyPanel extends JPanel {
 
 		// podzia³ na w¹tki:
 		delta = points.size() / threadNumber;
+		System.out.println("Watki podzielone");
 		CalcCircleThread[] threads = new CalcCircleThread[threadNumber];
 		for (int i = 0; i < threads.length; i++) {
 			threads[i] = new CalcCircleThread();
