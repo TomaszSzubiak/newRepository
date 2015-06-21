@@ -102,7 +102,7 @@ public class Client extends JFrame {
 					}
 					if (x < 0 || x > 8000 || y < 0 || y > 5000) {
 						JOptionPane.showMessageDialog(Client.this,
-								"Niepoprawne liczby.", "Z³e dane",
+								"Niepoprawne liczby, zakres wynosi 0<x<8000, 0<y<5000", "Z³e dane",
 								JOptionPane.WARNING_MESSAGE);
 						return;
 					}
