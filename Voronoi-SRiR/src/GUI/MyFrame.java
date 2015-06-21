@@ -183,7 +183,7 @@ public class MyFrame extends JFrame {
 				Registry registry = null;
 				try {
 					registry = LocateRegistry.getRegistry(RMIData.address,
-							Constants.RMI_PORT);
+							Constants.RMI_PORT);//pobieranie lokalizacji 
 					TestRemote remote = (TestRemote) registry
 							.lookup(Constants.RMI_ID);
 
