@@ -34,7 +34,7 @@ public class RemoteImpl extends UnicastRemoteObject implements TestRemote {
 	@Override
 	public boolean isLoginValid(String username, String pass)
 			throws RemoteException {
-		System.out.println("logowanie jako: " + username + " " + pass);
+		System.out.println("logowanie jako: " + username +"\n" +" " + pass);
 		if (pass.equals(users.get(username)))
 			return true;
 		return false;
