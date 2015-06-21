@@ -56,7 +56,7 @@ public class RemoteImpl extends UnicastRemoteObject implements TestRemote {
 			list.add(new Point(rand.nextInt(1000), rand.nextInt(1000)));/** losowanie punktow */
 		}
 
-		System.out.println("punkty wygenerowane");
+		System.out.println("Wygenerowanie punktów");
 
 		return list;
 	}
