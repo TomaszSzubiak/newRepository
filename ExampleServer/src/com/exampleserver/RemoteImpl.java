@@ -52,7 +52,7 @@ public class RemoteImpl extends UnicastRemoteObject implements TestRemote {
 		//	list.add(new Point(rand.nextInt(7500), rand.nextInt(4900)));
 		//}
 		
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 20; i++) {
 			list.add(new Point(rand.nextInt(1000), rand.nextInt(1000)));/** losowanie punktow */
 		}
 
